@@ -1,2 +1,3 @@
 all:
-	gcc main.c -o main
+	mkdir -p build
+	gcc main.c -o build/main
